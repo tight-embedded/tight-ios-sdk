@@ -15,8 +15,6 @@ let package = Package(
             targets: ["HurdlrSDK"]),
     ],
     targets: [
-        //note: this is for a local binary target. Once hosted, binary targets must be pointed to by url with a valid checksum.
-        // see https://developer.apple.com/documentation/xcode/creating-a-standalone-swift-package-with-xcode for more info
         .binaryTarget(
             name: "HurdlrSDK",
             path: "HurdlrSDK.xcframework"
