@@ -1,0 +1,6 @@
+framework module HurdlrSDK {
+  umbrella header "HurdlrSDK.h"
+  export *
+
+  module * { export * }
+}
