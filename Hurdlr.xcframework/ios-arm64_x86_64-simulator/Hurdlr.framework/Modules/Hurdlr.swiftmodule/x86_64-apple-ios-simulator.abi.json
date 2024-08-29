@@ -1,0 +1,1035 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "manager",
+            "printedName": "manager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Manager",
+                "printedName": "Hurdlr.Manager",
+                "usr": "s:6Hurdlr7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Hurdlr3SDKC7managerAA7ManagerCvpZ",
+            "mangledName": "$s6Hurdlr3SDKC7managerAA7ManagerCvpZ",
+            "moduleName": "Hurdlr",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Manager",
+                    "printedName": "Hurdlr.Manager",
+                    "usr": "s:6Hurdlr7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Hurdlr3SDKC7managerAA7ManagerCvgZ",
+                "mangledName": "$s6Hurdlr3SDKC7managerAA7ManagerCvgZ",
+                "moduleName": "Hurdlr",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Hurdlr3SDKC",
+        "mangledName": "$s6Hurdlr3SDKC",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Drive",
+        "printedName": "Drive",
+        "declKind": "Class",
+        "usr": "s:6Hurdlr5DriveC",
+        "mangledName": "$s6Hurdlr5DriveC",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectionState",
+        "printedName": "DetectionState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "IDLE",
+            "printedName": "IDLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hurdlr.DetectionState.Type) -> Hurdlr.DetectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionState",
+                    "printedName": "Hurdlr.DetectionState",
+                    "usr": "s:6Hurdlr14DetectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hurdlr.DetectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionState",
+                        "printedName": "Hurdlr.DetectionState",
+                        "usr": "s:6Hurdlr14DetectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Hurdlr14DetectionStateO4IDLEyA2CmF",
+            "mangledName": "$s6Hurdlr14DetectionStateO4IDLEyA2CmF",
+            "moduleName": "Hurdlr"
+          },
+          {
+            "kind": "Var",
+            "name": "IN_DETECTION",
+            "printedName": "IN_DETECTION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hurdlr.DetectionState.Type) -> Hurdlr.DetectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionState",
+                    "printedName": "Hurdlr.DetectionState",
+                    "usr": "s:6Hurdlr14DetectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hurdlr.DetectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionState",
+                        "printedName": "Hurdlr.DetectionState",
+                        "usr": "s:6Hurdlr14DetectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Hurdlr14DetectionStateO12IN_DETECTIONyA2CmF",
+            "mangledName": "$s6Hurdlr14DetectionStateO12IN_DETECTIONyA2CmF",
+            "moduleName": "Hurdlr"
+          },
+          {
+            "kind": "Var",
+            "name": "ACTIVE_AUTO_DRIVE",
+            "printedName": "ACTIVE_AUTO_DRIVE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hurdlr.DetectionState.Type) -> Hurdlr.DetectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionState",
+                    "printedName": "Hurdlr.DetectionState",
+                    "usr": "s:6Hurdlr14DetectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hurdlr.DetectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionState",
+                        "printedName": "Hurdlr.DetectionState",
+                        "usr": "s:6Hurdlr14DetectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Hurdlr14DetectionStateO17ACTIVE_AUTO_DRIVEyA2CmF",
+            "mangledName": "$s6Hurdlr14DetectionStateO17ACTIVE_AUTO_DRIVEyA2CmF",
+            "moduleName": "Hurdlr"
+          },
+          {
+            "kind": "Var",
+            "name": "ACTIVE_SEMI_AUTO_DRIVE",
+            "printedName": "ACTIVE_SEMI_AUTO_DRIVE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hurdlr.DetectionState.Type) -> Hurdlr.DetectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionState",
+                    "printedName": "Hurdlr.DetectionState",
+                    "usr": "s:6Hurdlr14DetectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hurdlr.DetectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionState",
+                        "printedName": "Hurdlr.DetectionState",
+                        "usr": "s:6Hurdlr14DetectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Hurdlr14DetectionStateO22ACTIVE_SEMI_AUTO_DRIVEyA2CmF",
+            "mangledName": "$s6Hurdlr14DetectionStateO22ACTIVE_SEMI_AUTO_DRIVEyA2CmF",
+            "moduleName": "Hurdlr"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hurdlr.DetectionState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionState",
+                    "printedName": "Hurdlr.DetectionState",
+                    "usr": "s:6Hurdlr14DetectionStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Hurdlr14DetectionStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s6Hurdlr14DetectionStateO8rawValueACSgSi_tcfc",
+            "moduleName": "Hurdlr",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Hurdlr14DetectionStateO8rawValueSivp",
+            "mangledName": "$s6Hurdlr14DetectionStateO8rawValueSivp",
+            "moduleName": "Hurdlr",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Hurdlr14DetectionStateO8rawValueSivg",
+                "mangledName": "$s6Hurdlr14DetectionStateO8rawValueSivg",
+                "moduleName": "Hurdlr",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Hurdlr14DetectionStateO",
+        "mangledName": "$s6Hurdlr14DetectionStateO",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Manager",
+        "printedName": "Manager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(accessToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC10initialize11accessTokenySS_tF",
+            "mangledName": "$s6Hurdlr7ManagerC10initialize11accessTokenySS_tF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIsSetup",
+            "printedName": "getIsSetup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC10getIsSetupSbyF",
+            "mangledName": "$s6Hurdlr7ManagerC10getIsSetupSbyF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDetectionMode",
+            "printedName": "getDetectionMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionMode",
+                "printedName": "Hurdlr.DetectionMode",
+                "usr": "s:6Hurdlr13DetectionModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC16getDetectionModeAA0dE0OyF",
+            "mangledName": "$s6Hurdlr7ManagerC16getDetectionModeAA0dE0OyF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDetectionMode",
+            "printedName": "setDetectionMode(detectionMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionMode",
+                "printedName": "Hurdlr.DetectionMode",
+                "usr": "s:6Hurdlr13DetectionModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC16setDetectionMode09detectionE0yAA0dE0O_tF",
+            "mangledName": "$s6Hurdlr7ManagerC16setDetectionMode09detectionE0yAA0dE0O_tF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDetectionState",
+            "printedName": "getDetectionState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionState",
+                "printedName": "Hurdlr.DetectionState",
+                "usr": "s:6Hurdlr14DetectionStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC17getDetectionStateAA0dE0OyF",
+            "mangledName": "$s6Hurdlr7ManagerC17getDetectionStateAA0dE0OyF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentDrive",
+            "printedName": "getCurrentDrive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hurdlr.Drive?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Drive",
+                    "printedName": "Hurdlr.Drive",
+                    "usr": "s:6Hurdlr5DriveC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC15getCurrentDriveAA0E0CSgyF",
+            "mangledName": "$s6Hurdlr7ManagerC15getCurrentDriveAA0E0CSgyF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC6logoutyyF",
+            "mangledName": "$s6Hurdlr7ManagerC6logoutyyF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSemiAutoDrive",
+            "printedName": "startSemiAutoDrive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC18startSemiAutoDriveyyF",
+            "mangledName": "$s6Hurdlr7ManagerC18startSemiAutoDriveyyF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopSemiAutoDrive",
+            "printedName": "stopSemiAutoDrive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Hurdlr7ManagerC17stopSemiAutoDriveyyF",
+            "mangledName": "$s6Hurdlr7ManagerC17stopSemiAutoDriveyyF",
+            "moduleName": "Hurdlr",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Hurdlr7ManagerC",
+        "mangledName": "$s6Hurdlr7ManagerC",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hurdlr"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectionMode",
+        "printedName": "DetectionMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "OFF",
+            "printedName": "OFF",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hurdlr.DetectionMode.Type) -> Hurdlr.DetectionMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionMode",
+                    "printedName": "Hurdlr.DetectionMode",
+                    "usr": "s:6Hurdlr13DetectionModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hurdlr.DetectionMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionMode",
+                        "printedName": "Hurdlr.DetectionMode",
+                        "usr": "s:6Hurdlr13DetectionModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Hurdlr13DetectionModeO3OFFyA2CmF",
+            "mangledName": "$s6Hurdlr13DetectionModeO3OFFyA2CmF",
+            "moduleName": "Hurdlr"
+          },
+          {
+            "kind": "Var",
+            "name": "AUTO",
+            "printedName": "AUTO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hurdlr.DetectionMode.Type) -> Hurdlr.DetectionMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionMode",
+                    "printedName": "Hurdlr.DetectionMode",
+                    "usr": "s:6Hurdlr13DetectionModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hurdlr.DetectionMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionMode",
+                        "printedName": "Hurdlr.DetectionMode",
+                        "usr": "s:6Hurdlr13DetectionModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Hurdlr13DetectionModeO4AUTOyA2CmF",
+            "mangledName": "$s6Hurdlr13DetectionModeO4AUTOyA2CmF",
+            "moduleName": "Hurdlr"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hurdlr.DetectionMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionMode",
+                    "printedName": "Hurdlr.DetectionMode",
+                    "usr": "s:6Hurdlr13DetectionModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Hurdlr13DetectionModeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s6Hurdlr13DetectionModeO8rawValueACSgSi_tcfc",
+            "moduleName": "Hurdlr",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Hurdlr13DetectionModeO8rawValueSivp",
+            "mangledName": "$s6Hurdlr13DetectionModeO8rawValueSivp",
+            "moduleName": "Hurdlr",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Hurdlr13DetectionModeO8rawValueSivg",
+                "mangledName": "$s6Hurdlr13DetectionModeO8rawValueSivg",
+                "moduleName": "Hurdlr",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Hurdlr13DetectionModeO",
+        "mangledName": "$s6Hurdlr13DetectionModeO",
+        "moduleName": "Hurdlr",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 149,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 206,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 242,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 149,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 206,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 242,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 149,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 206,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 242,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 9,
+      "value": "\"isSetup\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 15,
+      "value": "\"detectionMode\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 16,
+      "value": "\"detectionState\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 14,
+      "value": "\"currentDrive\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 13,
+      "value": "\"accessToken\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 9,
+      "value": "\"isSetup\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 15,
+      "value": "\"detectionMode\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 16,
+      "value": "\"detectionState\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 14,
+      "value": "\"currentDrive\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 13,
+      "value": "\"accessToken\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 67,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 85,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 67,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 85,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 67,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/DetectionMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 85,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}
