@@ -36,6 +36,18 @@ In addition to installing the package with Swift Package Manager, you must also 
 </array>
 ```
 
+## Enums
+
+### MileageDetectionState
+
+### MileageDetectionMode
+
+### LocationAccess
+
+### PreciseLocationAccess
+
+### MotionActivityAccess
+
 ## Accessors
 
 ### isSetup() -> Bool
