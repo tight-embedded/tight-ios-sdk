@@ -50,7 +50,19 @@ For automatic drive detection and mileage tracking, please select "OK".</string>
 </array>
 ```
 
-## Mutators
+## Functions
+
+### getMileageDetectionMode() -> `MileageDetectionMode`
+
+Returns a `MileageDetectionMode` enum representing the current detection mode
+
+### getCurrentDrive() -> `Drive?`
+
+Returns a `Drive?` object representing the current drive
+
+### getMileagePermissions() -> `Permissions`
+
+Returns a `Permissions` object indicating the permission authorization granted by the user
 
 ### initialize(`accessToken` : `String`)
 
@@ -63,6 +75,10 @@ let hurdlrManager = Hurdlr.SDK.manager
 let sampleAccessToken = "sample_access_token"
 hurdlrManager.SDK.initialize(accessToken : sampleAccessToken)
 ```
+
+### isSetup() -> `Bool`
+
+Returns a `Bool` indicating if the Hurdlr SDK has been properly initialized
 
 ### logout()
 
@@ -110,24 +126,6 @@ Starts a semi-auto drive
 ### stopSemiAutoDrive()
 
 Stops a semi-auto drive
-
-## Accessors
-
-### getCurrentDrive() -> `Drive?`
-
-Returns a `Drive?` object representing the current drive
-
-### getMileagePermissions() -> `Permissions`
-
-Returns a `Permissions` object indicating the permission authorization granted by the user
-
-### getMileageDetectionMode() -> `MileageDetectionMode`
-
-Returns a `MileageDetectionMode` enum representing the current detection mode
-
-### isSetup() -> `Bool`
-
-Returns a `Bool` indicating if the Hurdlr SDK has been properly initialized
 
 ## Enums
 
