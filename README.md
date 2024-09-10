@@ -178,12 +178,14 @@ class Drive {
 }
 ```
 
+## Structures
+
 ### Permissions
 
 Used to represent information related to the status of permissions requested from the user
 
 ```
-class Permissions {
+struct Permissions {
     public let locationAccess: LocationAccess
     public let preciseLocationAccess: PreciseLocationAccess
     public let motionActivityAccess: MotionActivityAccess
