@@ -54,7 +54,7 @@ For automatic drive detection and mileage tracking, please select "OK".</string>
 One of `OFF` or `AUTO`
 
 - `AUTO` - Uses Hurdlr's automatic mileage detection algorithms to track mileage routes and distance
-- `OFF` - The user must manual start and stop mileage tracking
+- `OFF` - The user must manually start and stop mileage tracking
 
 ### LocationAccess
 
@@ -86,6 +86,9 @@ One of `UNKNOWN`, `DISABLED`, or `ENABLED`
 ### Drive
 Used to represent information related to the current drive
 ```
+class Drive {
+
+}
 ```
 
 
@@ -102,19 +105,21 @@ struct Permissions {
 
 ## Accessors
 
-### isSetup() -> Bool
+### isSetup() -> `Bool`
 
 Returns a `Bool` indicating if the Hurdlr SDK has been properly initialized
 
-### getMileagePermissions() -> Permissions
+### getMileagePermissions() -> `Permissions`
 
 Returns a `Permissions` object indicating the permission authorization granted by the user
 
-### getMileageDetectionMode() -> MileageDetectionMode
+### getMileageDetectionMode() -> `MileageDetectionMode`
+
+Returns a `MileageDetectionMode` enum representing the current detection mode
 
 ### getCurrentDrive() -> `Drive?`
 
-Returns a `Drive` object representing the current drive
+Returns a `Drive?` object representing the current drive
 
 ## Mutators
 
