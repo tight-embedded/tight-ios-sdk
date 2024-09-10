@@ -12,7 +12,7 @@ The Hurdlr SDK makes use of Swift Package Manager to enable a quick and easy int
 
 ### Info.plist Configuration
 
-In addition to installing the package with Swift Package Manager, you must also add the following to your app's info.plist file so that your app can request the necessary permissions from the user when they turn on mileage tracking, while complying with Apple's guidelines:
+In addition to installing the package with Swift Package Manager, you must also add the following to your app's info.plist file so the Hurdlr SDK can request necessary permissions from the user:
 
 ```
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
@@ -35,3 +35,31 @@ In addition to installing the package with Swift Package Manager, you must also 
     <string>location</string>
 </array>
 ```
+
+## Accessors
+
+### isSetup() -> Bool
+
+### getMileagePermissions() -> Permissions
+
+### getMileageDetectionMode() -> MileageDetectionMode
+
+### getCurrentDrive() -> Drive?
+
+## Mutators
+
+### initialize()
+
+### logout()
+
+### requestInitialMileagePermissions()
+
+### requestMileagePermissions(viewController: UIViewController)
+
+### setMileageDetectionMode(mileageDetectionMode: MileageDetectionMode)
+
+### startSemiAutoDrive()
+
+### stopSemiAutoDrive()
+
+### openApp(completionHandler: ((Bool) -> Void)?)
