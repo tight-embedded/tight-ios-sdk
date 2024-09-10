@@ -140,7 +140,6 @@ One of `UNKNOWN`, `DISABLED`, `IN_APP_ONLY`, or `ALWAYS`
   externally, such as by parental controls
 - `IN_APP_ONLY` - Location access has only been authorized when the user is using the app
 - `ALWAYS` - Location access has been granted for use anytime
--
 
 ### MileageDetectionMode
 
