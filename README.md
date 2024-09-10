@@ -60,18 +60,86 @@ In addition to installing the package with Swift Package Manager, you must also 
 
 ## Mutators
 
-### initialize()
+### initialize(`accessToken` : `String`)
+
+Initializes the Hurdlr SDK with an appropriate `accessToken`. 
+
+Example usage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+let sampleAccessToken = "sample_access_token"
+hurdlrManager.SDK.initialize(accessToken : sampleAccessToken)
+```
 
 ### logout()
 
+Logs the user out of the Hurdlr SDK.
+
+Example usage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+hurdlrManager.SDK.logout()
+```
+
 ### requestInitialMileagePermissions()
 
-### requestMileagePermissions(viewController: UIViewController)
+Requests initial mileage permissions for the app. This function should be called while onboarding users, and will result in all neccessary mileage-related permissions being requested from the user. 
 
-### setMileageDetectionMode(mileageDetectionMode: MileageDetectionMode)
+Example usage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+hurdlrManager.SDK.requestInitialMileagePermissions()
+```
+
+### requestMileagePermissions(`viewController` : `UIViewController`)
+
+Requests the user to navigate to settings and enable necessary permissions if they have not done so already. Note this function should be called only after the `requestInitialMileagePermissions` function has been called. 
+
+Example useage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+hurdlrManager.SDK.requestMileagePermissions(viewController: self)
+```
+
+### setMileageDetectionMode(`mileageDetectionMode` : `MileageDetectionMode`)
+
+Sets the mileage detection mode.
+
+Example usage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+hurdlrManager.SDK.setMileageDetectionMode(MileageDetectionMode.AUTO)
+```
 
 ### startSemiAutoDrive()
 
+Starts a semi-auto drive. 
+
+Example usage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+hurdlrManager.SDK.startSemiAutoDrive()
+```
+
 ### stopSemiAutoDrive()
 
-### openApp(completionHandler: ((Bool) -> Void)?)
+Stops a semi-auto drive. 
+
+Example usage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+hurdlrManager.SDK.stopSemiAutoDrive()
+```
+
+
+### openApp(`completionHandler` : `((Bool) -> Void)?`)
+
+Opens the native settings screen for the app. This function accepts a completionHandler, which executes on the successful launch of the settings app. 
+
+Example usage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+hurdlrManager.SDK.openApp() { success in
+    print("Result of opening app settings: ", success)
+}
+```
