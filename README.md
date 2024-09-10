@@ -17,19 +17,29 @@ In addition to installing the package with Swift Package Manager, you must also 
 
 ```
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. For automatic drive detection and mileage tracking, please select "Always Allow".</string>
+<string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. 
+
+For automatic drive detection and mileage tracking, please select "Always Allow".</string>
 
 <key>NSLocationAlwaysUsageDescription</key>
-<string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. For automatic drive detection and mileage tracking, please select "Always Allow".</string>
+<string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. 
+
+For automatic drive detection and mileage tracking, please select "Always Allow".</string>
 
 <key>NSLocationUsageDescription</key>
-<string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. For automatic drive detection and mileage tracking, please select "Allow While Using App".</string>
+<string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. 
+
+For automatic drive detection and mileage tracking, please select "Allow While Using App".</string>
 
 <key>NSLocationWhenInUseUsageDescription</key>
-<string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. For automatic drive detection and mileage tracking, please select "Allow While Using App".</string>
+<string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. 
+
+For automatic drive detection and mileage tracking, please select "Allow While Using App".</string>
 
 <key>NSMotionUsageDescription</key>
-<string>YOUR_APP_NAME uses Hurdlr to collect and transmit motion data, which is used solely for drive detection and mileage tracking. For automatic drive detection and mileage tracking, please select "OK".</string>
+<string>YOUR_APP_NAME uses Hurdlr to collect and transmit motion data, which is used solely for drive detection and mileage tracking. 
+
+For automatic drive detection and mileage tracking, please select "OK".</string>
 
 <key>UIBackgroundModes</key>
 <array>
@@ -69,6 +79,19 @@ One of `UNKNOWN`, `DISABLED`, or `ENABLED`
 
 -
 
+## DTOs
+
+### Permissions
+
+Used for transferring information related to the status of permissions requested from the user. 
+```
+public struct Permissions {
+    public let locationAccess: LocationAccess
+    public let preciseLocationAccess: PreciseLocationAccess
+    public let motionActivityAccess: MotionActivityAccess
+}
+```
+
 ## Accessors
 
 ### isSetup() -> Bool
@@ -77,7 +100,15 @@ One of `UNKNOWN`, `DISABLED`, or `ENABLED`
 
 ### getMileageDetectionMode() -> MileageDetectionMode
 
-### getCurrentDrive() -> Drive?
+### getCurrentDrive() -> `Drive?`
+
+Returns the current drive.
+
+Example usage:
+```
+let hurdlrManager = Hurdlr.SDK.manager
+let drive : Drive = hurdlrManager.SDK.getCurrentDrive()
+```
 
 ## Mutators
 
