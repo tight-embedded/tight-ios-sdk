@@ -2,8 +2,9 @@
 
 ## Setup
 
-### Package Installation with Swift Package Manager 
-The Hurdlr SDK makes use of Swift Package Manager to enable a quick and easy integration pathway for iOS applications. Follow the steps below to install the Hurdlr SDK using Swift Package Manager: 
+### Package Installation with Swift Package Manager
+
+The Hurdlr SDK makes use of Swift Package Manager to enable a quick and easy integration pathway for iOS applications. Follow the steps below to install the Hurdlr SDK using Swift Package Manager:
 
 1. From within XCode, navigate to: `File > Add Package Dependencies`
 2. Enter the following package URL in the search field: `https://github.com/Hurdlr/HurdlrIosSDK.git`
@@ -26,7 +27,7 @@ In addition to installing the package with Swift Package Manager, you must also 
 
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>YOUR_APP_NAME uses Hurdlr to collect and transmit location data, which is used solely for drive detection and mileage tracking. For automatic drive detection and mileage tracking, please select "Allow While Using App".</string>
-	
+
 <key>NSMotionUsageDescription</key>
 <string>YOUR_APP_NAME uses Hurdlr to collect and transmit motion data, which is used solely for drive detection and mileage tracking. For automatic drive detection and mileage tracking, please select "OK".</string>
 
@@ -38,15 +39,35 @@ In addition to installing the package with Swift Package Manager, you must also 
 
 ## Enums
 
-### MileageDetectionState
-
 ### MileageDetectionMode
+
+One of `OFF` or `AUTO`.
+
+- `AUTO` - uses Hurdlr's automatic mileage detection algorithms to track mileage routes and distance
+- `OFF` - manual tracking
 
 ### LocationAccess
 
+One of `UNKNOWN`, `DISABLED`, `IN_APP_ONLY`, or `ALWAYS`
+
+- `UNKNOWN` - Location access authorization has not been requested from the user
+- `DISABLED` - The user explicitly denied location access authorization. Can also indicate that the app was restricted externally, such as by parental controls
+- `IN_APP_ONLY` - Location access has only been authorized when the user is using the app
+- `ALWAYS` - Location access has been granted for use anytime
+
 ### PreciseLocationAccess
 
+One of `UNKNOWN`, `DISABLED`, or `ENABLED`
+
+- `UNKNOWN` - Precise location access authorization has not been requested from the user
+- `DISABLED` - Approximate location access has been granted for use anytime
+- `ALWAYS` - Precise location access has been granted for use anytime
+
 ### MotionActivityAccess
+
+One of `UNKNOWN`, `DISABLED`, or `ENABLED`
+
+-
 
 ## Accessors
 
