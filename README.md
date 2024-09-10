@@ -43,8 +43,8 @@ In addition to installing the package with Swift Package Manager, you must also 
 
 One of `OFF` or `AUTO`.
 
-- `AUTO` - uses Hurdlr's automatic mileage detection algorithms to track mileage routes and distance
-- `OFF` - manual tracking
+- `AUTO` - Uses Hurdlr's automatic mileage detection algorithms to track mileage routes and distance
+- `OFF` - The user must manual start and stop mileage tracking
 
 ### LocationAccess
 
