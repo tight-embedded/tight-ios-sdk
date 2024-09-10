@@ -67,13 +67,26 @@ One of `UNKNOWN`, `DISABLED`, or `ENABLED`
 
 One of `UNKNOWN`, `DISABLED`, or `ENABLED`
 
--
+- `UNKNOWN` - Motion activity access authorization has not been requested from the user
+- `DISABLED` - The user explicitly denied motion activity access authorization. Can also indicate that the app was restricted externally, such as by parental controls
+- `ALWAYS` - Motion activity access has been granted for use anytime
 
 ## Accessors
 
 ### isSetup() -> Bool
 
+Returns a boolean indicating if the Hurdlr SDK has been properly initialized
+
 ### getMileagePermissions() -> Permissions
+
+Returns a Permissions object indicating the permission authorization granted by the user
+
+Example useage:
+
+```
+let hurdlrManager = Hurdlr.SDK.manager
+hurdlrManager.SDK.getMileagePermissions()
+```
 
 ### getMileageDetectionMode() -> MileageDetectionMode
 
@@ -83,9 +96,10 @@ One of `UNKNOWN`, `DISABLED`, or `ENABLED`
 
 ### initialize(`accessToken` : `String`)
 
-Initializes the Hurdlr SDK with an appropriate `accessToken`. 
+Initializes the Hurdlr SDK with an appropriate `accessToken`.
 
 Example usage:
+
 ```
 let hurdlrManager = Hurdlr.SDK.manager
 let sampleAccessToken = "sample_access_token"
@@ -97,6 +111,7 @@ hurdlrManager.SDK.initialize(accessToken : sampleAccessToken)
 Logs the user out of the Hurdlr SDK.
 
 Example usage:
+
 ```
 let hurdlrManager = Hurdlr.SDK.manager
 hurdlrManager.SDK.logout()
@@ -104,9 +119,10 @@ hurdlrManager.SDK.logout()
 
 ### requestInitialMileagePermissions()
 
-Requests initial mileage permissions for the app. This function should be called while onboarding users, and will result in all neccessary mileage-related permissions being requested from the user. 
+Requests initial mileage permissions for the app. This function should be called while onboarding users, and will result in all neccessary mileage-related permissions being requested from the user.
 
 Example usage:
+
 ```
 let hurdlrManager = Hurdlr.SDK.manager
 hurdlrManager.SDK.requestInitialMileagePermissions()
@@ -114,9 +130,10 @@ hurdlrManager.SDK.requestInitialMileagePermissions()
 
 ### requestMileagePermissions(`viewController` : `UIViewController`)
 
-Requests the user to navigate to settings and enable necessary permissions if they have not done so already. Note this function should be called only after the `requestInitialMileagePermissions` function has been called. 
+Requests the user to navigate to settings and enable necessary permissions if they have not done so already. Note this function should be called only after the `requestInitialMileagePermissions` function has been called.
 
 Example useage:
+
 ```
 let hurdlrManager = Hurdlr.SDK.manager
 hurdlrManager.SDK.requestMileagePermissions(viewController: self)
@@ -127,6 +144,7 @@ hurdlrManager.SDK.requestMileagePermissions(viewController: self)
 Sets the mileage detection mode.
 
 Example usage:
+
 ```
 let hurdlrManager = Hurdlr.SDK.manager
 hurdlrManager.SDK.setMileageDetectionMode(MileageDetectionMode.AUTO)
@@ -134,9 +152,10 @@ hurdlrManager.SDK.setMileageDetectionMode(MileageDetectionMode.AUTO)
 
 ### startSemiAutoDrive()
 
-Starts a semi-auto drive. 
+Starts a semi-auto drive.
 
 Example usage:
+
 ```
 let hurdlrManager = Hurdlr.SDK.manager
 hurdlrManager.SDK.startSemiAutoDrive()
@@ -144,20 +163,21 @@ hurdlrManager.SDK.startSemiAutoDrive()
 
 ### stopSemiAutoDrive()
 
-Stops a semi-auto drive. 
+Stops a semi-auto drive.
 
 Example usage:
+
 ```
 let hurdlrManager = Hurdlr.SDK.manager
 hurdlrManager.SDK.stopSemiAutoDrive()
 ```
 
-
 ### openApp(`completionHandler` : `((Bool) -> Void)?`)
 
-Opens the native settings screen for the app. This function accepts a completionHandler, which executes on the successful launch of the settings app. 
+Opens the native settings screen for the app. This function accepts a completionHandler, which executes on the successful launch of the settings app.
 
 Example usage:
+
 ```
 let hurdlrManager = Hurdlr.SDK.manager
 hurdlrManager.SDK.openApp() { success in
