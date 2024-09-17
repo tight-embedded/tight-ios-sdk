@@ -2,7 +2,7 @@
 
 ## Minimum iOS Deployment Version
 
-The Hurdlr SDK supports a minimum iOS deployment version of `iOS 17.0`. Your app must target an iOS version greater than this minimum.
+The Hurdlr SDK supports a minimum iOS deployment version of `iOS 17.0`. Your app must target an iOS version greater than or equal to this version in order to use the Hurdlr SDK. 
 
 ## Setup
 
