@@ -1,5 +1,9 @@
 # HurdlrIosSDK
 
+## Minimum iOS Deployment Version
+
+The Hurdlr SDK supports a minimum iOS deployment version of `iOS 17.0`. Your app must target an iOS version greater than this minimum.
+
 ## Setup
 
 ### Package Installation with Swift Package Manager
