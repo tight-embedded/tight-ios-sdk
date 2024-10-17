@@ -77,6 +77,8 @@ public enum MotionActivityAccess : Swift.Codable {
   public func getGuid() -> Swift.String
   public func getStartAddress() -> Swift.String?
   public func getEndAddress() -> Swift.String?
+  public func getStartReason() -> HurdlrSDK.DriveReason
+  public func getCompleteReason() -> HurdlrSDK.DriveReason
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -122,6 +124,15 @@ public enum MileageDetectionMode : Swift.Int, Swift.Codable {
     get
   }
 }
+public enum DriveReason : Swift.String, Swift.Codable {
+  case MANUAL
+  case AUTOMATIC
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 extension HurdlrSDK.LocationAccess : Swift.Equatable {}
 extension HurdlrSDK.LocationAccess : Swift.Hashable {}
 extension HurdlrSDK.PreciseLocationAccess : Swift.Equatable {}
@@ -134,3 +145,6 @@ extension HurdlrSDK.MileageDetectionState : Swift.RawRepresentable {}
 extension HurdlrSDK.MileageDetectionMode : Swift.Equatable {}
 extension HurdlrSDK.MileageDetectionMode : Swift.Hashable {}
 extension HurdlrSDK.MileageDetectionMode : Swift.RawRepresentable {}
+extension HurdlrSDK.DriveReason : Swift.Equatable {}
+extension HurdlrSDK.DriveReason : Swift.Hashable {}
+extension HurdlrSDK.DriveReason : Swift.RawRepresentable {}
