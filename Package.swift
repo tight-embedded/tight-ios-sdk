@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Hurdlr",
-            path: "Hurdlr.xcframework"
+            path: "HurdlrSDK.xcframework"
         )
     ]
 )
