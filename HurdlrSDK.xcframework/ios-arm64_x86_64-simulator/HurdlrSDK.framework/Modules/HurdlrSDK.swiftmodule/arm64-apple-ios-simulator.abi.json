@@ -1050,6 +1050,161 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HurdlrSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HurdlrDelegate",
+        "printedName": "HurdlrDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didStartDrive",
+            "printedName": "didStartDrive(currentDrive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentDrive",
+                "printedName": "HurdlrSDK.CurrentDrive",
+                "usr": "s:9HurdlrSDK12CurrentDriveC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HurdlrSDK0A8DelegateP13didStartDrive07currentF0yAA07CurrentF0C_tF",
+            "mangledName": "$s9HurdlrSDK0A8DelegateP13didStartDrive07currentF0yAA07CurrentF0C_tF",
+            "moduleName": "HurdlrSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HurdlrSDK.HurdlrDelegate>",
+            "sugared_genericSig": "<Self where Self : HurdlrSDK.HurdlrDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didStopDrive",
+            "printedName": "didStopDrive(currentDrive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HurdlrSDK.CurrentDrive?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CurrentDrive",
+                    "printedName": "HurdlrSDK.CurrentDrive",
+                    "usr": "s:9HurdlrSDK12CurrentDriveC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HurdlrSDK0A8DelegateP12didStopDrive07currentF0yAA07CurrentF0CSg_tF",
+            "mangledName": "$s9HurdlrSDK0A8DelegateP12didStopDrive07currentF0yAA07CurrentF0CSg_tF",
+            "moduleName": "HurdlrSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HurdlrSDK.HurdlrDelegate>",
+            "sugared_genericSig": "<Self where Self : HurdlrSDK.HurdlrDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didResumeDrive",
+            "printedName": "didResumeDrive(currentDrive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentDrive",
+                "printedName": "HurdlrSDK.CurrentDrive",
+                "usr": "s:9HurdlrSDK12CurrentDriveC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HurdlrSDK0A8DelegateP14didResumeDrive07currentF0yAA07CurrentF0C_tF",
+            "mangledName": "$s9HurdlrSDK0A8DelegateP14didResumeDrive07currentF0yAA07CurrentF0C_tF",
+            "moduleName": "HurdlrSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HurdlrSDK.HurdlrDelegate>",
+            "sugared_genericSig": "<Self where Self : HurdlrSDK.HurdlrDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didMileagePermissionsChange",
+            "printedName": "didMileagePermissionsChange(permissions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Permissions",
+                "printedName": "HurdlrSDK.Permissions",
+                "usr": "s:9HurdlrSDK11PermissionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HurdlrSDK0A8DelegateP27didMileagePermissionsChange11permissionsyAA0F0V_tF",
+            "mangledName": "$s9HurdlrSDK0A8DelegateP27didMileagePermissionsChange11permissionsyAA0F0V_tF",
+            "moduleName": "HurdlrSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HurdlrSDK.HurdlrDelegate>",
+            "sugared_genericSig": "<Self where Self : HurdlrSDK.HurdlrDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9HurdlrSDK0A8DelegateP",
+        "mangledName": "$s9HurdlrSDK0A8DelegateP",
+        "moduleName": "HurdlrSDK",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -2484,6 +2639,61 @@
           },
           {
             "kind": "Function",
+            "name": "hasDelegate",
+            "printedName": "hasDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HurdlrSDK7ManagerC11hasDelegateSbyF",
+            "mangledName": "$s9HurdlrSDK7ManagerC11hasDelegateSbyF",
+            "moduleName": "HurdlrSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setHurdlrDelegate",
+            "printedName": "setHurdlrDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any HurdlrSDK.HurdlrDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HurdlrDelegate",
+                    "printedName": "any HurdlrSDK.HurdlrDelegate",
+                    "usr": "s:9HurdlrSDK0A8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HurdlrSDK7ManagerC03setA8Delegate8delegateyAA0aE0_pSg_tF",
+            "mangledName": "$s9HurdlrSDK7ManagerC03setA8Delegate8delegateyAA0aE0_pSg_tF",
+            "moduleName": "HurdlrSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isSetup",
             "printedName": "isSetup()",
             "children": [
@@ -2582,8 +2792,8 @@
           },
           {
             "kind": "Function",
-            "name": "logout",
-            "printedName": "logout()",
+            "name": "teardown",
+            "printedName": "teardown()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2592,8 +2802,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9HurdlrSDK7ManagerC6logoutyyF",
-            "mangledName": "$s9HurdlrSDK7ManagerC6logoutyyF",
+            "usr": "s:9HurdlrSDK7ManagerC8teardownyyF",
+            "mangledName": "$s9HurdlrSDK7ManagerC8teardownyyF",
             "moduleName": "HurdlrSDK",
             "declAttributes": [
               "AccessControl"
@@ -3347,791 +3557,826 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
       "kind": "Array",
       "offset": 159,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 452,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 478,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 708,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 757,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
       "kind": "StringLiteral",
       "offset": 992,
       "length": 9,
       "value": "\"Error: \""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Logging\/LogUtils.swift",
       "kind": "Dictionary",
       "offset": 1361,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/BugsnagError.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/BugsnagError.swift",
       "kind": "Dictionary",
       "offset": 179,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/BugsnagError.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/BugsnagError.swift",
       "kind": "StringLiteral",
       "offset": 105,
       "length": 12,
       "value": "\"HurdlrSDK.BugsnagError\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 9,
       "value": "\"isSetup\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 15,
       "value": "\"detectionMode\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 16,
       "value": "\"detectionState\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 14,
       "value": "\"currentDrive\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 27,
       "value": "\"pendingActiveCurrentDrive\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 13,
       "value": "\"accessToken\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 14,
       "value": "\"drivesToPost\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 477,
       "length": 22,
       "value": "\"inDetectionStartTime\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 27,
       "value": "\"lastCoordinateForDistance\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 613,
       "length": 32,
       "value": "\"notAutomotiveActivityTimestamp\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 689,
       "length": 30,
       "value": "\"speedBelowThresholdTimestamp\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 771,
       "length": 37,
       "value": "\"lowDistanceTimeoutReferenceLocation\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 841,
       "length": 20,
       "value": "\"lastRouteTimestamp\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "kind": "StringLiteral",
+      "offset": 907,
+      "length": 32,
+      "value": "\"prevMotionActivityAccessStatus\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 9,
       "value": "\"isSetup\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 15,
       "value": "\"detectionMode\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 16,
       "value": "\"detectionState\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 14,
       "value": "\"currentDrive\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 27,
       "value": "\"pendingActiveCurrentDrive\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 13,
       "value": "\"accessToken\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 14,
       "value": "\"drivesToPost\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 477,
       "length": 22,
       "value": "\"inDetectionStartTime\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 27,
       "value": "\"lastCoordinateForDistance\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 613,
       "length": 32,
       "value": "\"notAutomotiveActivityTimestamp\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 689,
       "length": 30,
       "value": "\"speedBelowThresholdTimestamp\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 771,
       "length": 37,
       "value": "\"lowDistanceTimeoutReferenceLocation\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
       "kind": "StringLiteral",
       "offset": 841,
       "length": 20,
       "value": "\"lastRouteTimestamp\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/UserStorage\/PersistedFields.swift",
+      "kind": "StringLiteral",
+      "offset": 907,
+      "length": 32,
+      "value": "\"prevMotionActivityAccessStatus\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 31,
       "value": "\"geofence_in_detection_monitor\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 31,
       "value": "\"detection_geofence_100_meters\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 321,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 13,
+      "value": "\"_MILEAGESDK\""
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 386,
+      "offset": 441,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 437,
+      "offset": 492,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 501,
+      "offset": 556,
       "length": 4,
       "value": "4.47"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 582,
+      "offset": 637,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 640,
+      "offset": 695,
       "length": 4,
       "value": "25.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 702,
+      "offset": 763,
       "length": 5,
       "value": "100.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 780,
+      "offset": 841,
       "length": 5,
       "value": "300.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 855,
+      "offset": 915,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 998,
+      "length": 6,
+      "value": "900.00"
+    },
+    {
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1074,
       "length": 5,
       "value": "600.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 932,
+      "offset": 1139,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1006,
+      "offset": 1213,
       "length": 5,
       "value": "210.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/CurrentDrive.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/CurrentDrive.swift",
       "kind": "Array",
       "offset": 187,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/CurrentDrive.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/CurrentDrive.swift",
       "kind": "FloatLiteral",
       "offset": 283,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/LocationManager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/LocationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 426,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/LocationManager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/LocationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 543,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 173,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 173,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 173,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 15877,
+      "offset": 16525,
       "length": 37,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 15894,
+      "offset": 16542,
       "length": 1,
       "value": "\"\/v1\/misc\/mileageLog\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 16009,
+      "offset": 16657,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 16049,
+      "offset": 16697,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 16102,
+      "offset": 16750,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 16135,
+      "offset": 16783,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 16160,
+      "offset": 16808,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 16218,
+      "offset": 16866,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 17436,
+      "offset": 18084,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 18001,
+      "offset": 18649,
       "length": 5,
       "value": "\"log\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 18038,
+      "offset": 18686,
       "length": 8,
       "value": "\"detail\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "Array",
-      "offset": 18219,
+      "offset": 18867,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "Array",
-      "offset": 18803,
+      "offset": 19451,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "Array",
-      "offset": 18900,
+      "offset": 19548,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 19676,
+      "offset": 20324,
       "length": 38,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 19693,
+      "offset": 20341,
       "length": 1,
       "value": "\"\/v5\/mileage\/mileages\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 19793,
+      "offset": 20441,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 19833,
+      "offset": 20481,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 19878,
+      "offset": 20526,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 19911,
+      "offset": 20559,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 19936,
+      "offset": 20584,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 19986,
+      "offset": 20634,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "Array",
-      "offset": 20368,
+      "offset": 21016,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20417,
+      "offset": 21065,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 20667,
+      "offset": 21315,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 20882,
+      "offset": 21530,
       "length": 14,
       "value": "\"mileageRoute\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 20940,
+      "offset": 21588,
       "length": 11,
       "value": "\"waypoints\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21037,
+      "offset": 21685,
       "length": 11,
       "value": "\"mileageId\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21190,
+      "offset": 21838,
       "length": 42,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21207,
+      "offset": 21855,
       "length": 1,
       "value": "\"\/v3\/mileage\/mileageRoute\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21351,
+      "offset": 21999,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21391,
+      "offset": 22039,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21456,
+      "offset": 22104,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21489,
+      "offset": 22137,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21514,
+      "offset": 22162,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 21584,
+      "offset": 22232,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "Array",
-      "offset": 21705,
+      "offset": 22353,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 22064,
+      "offset": 22712,
       "length": 60,
       "value": "\"Failed to decode mileage response from v5\/mileage\/mileages\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 22298,
+      "offset": 22946,
       "length": 73,
       "value": "\"Non-200 HTTP response when posting mileages: \""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 22370,
+      "offset": 23018,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22857,
+      "offset": 23505,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Config.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 29,
       "value": "\"https:\/\/dev.hurdlr.com\/rest\""
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 83,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 101,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 83,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 101,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 83,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
+      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
       "kind": "IntegerLiteral",
       "offset": 101,
       "length": 1,
