@@ -56,6 +56,7 @@ public protocol HurdlrDelegate : Swift.Decodable, Swift.Encodable {
 public struct Coordinate2D : Swift.Codable {
   public let longitude: Swift.Double
   public let latitude: Swift.Double
+  public let timestamp: Foundation.Date
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -80,7 +81,7 @@ public enum MotionActivityAccess : Swift.Codable {
   public func getRoute() -> [HurdlrSDK.Coordinate2D]
   public func getStartTime() -> Foundation.Date?
   public func getEndTime() -> Foundation.Date?
-  public func getGuid() -> Swift.String
+  public func getGuid() -> Swift.UInt64?
   public func getStartAddress() -> Swift.String?
   public func getEndAddress() -> Swift.String?
   public func getStartReason() -> HurdlrSDK.DriveReason
