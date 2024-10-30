@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		huBORVlc07uQYQPygXmbWMKh6j4=
+		EA132ugcjkRciQFWsF7NBiky6ok=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Z9XODuyDZrKpXmP/2Z7t8V2dus=
+		p+gpKE9lL4FVuhInRz1boUkhYL0=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		huBORVlc07uQYQPygXmbWMKh6j4=
+		EA132ugcjkRciQFWsF7NBiky6ok=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VY1VynUh1MHLqPo/tM3gZpNUasQ=
+		eNrAq+AJAkfyMjBl5PEG1IsbJHU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8T4lm+axWaevF1g5w2WwAjyI2PRCmjJrFME+8rI+sso=
+			eh2s4oXD0P3Cwj61qvPnpinc+IFJb5iqNWKR1KaFa/8=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -94,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFYY3trJuNwC9R7uf4XkRrEVyqlliD/FJNyvNdkvSmw=
+			KM42+UqmYTZ4haVyw2IeER084ZRHaFZ9MFqYObcGEdc=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8T4lm+axWaevF1g5w2WwAjyI2PRCmjJrFME+8rI+sso=
+			eh2s4oXD0P3Cwj61qvPnpinc+IFJb5iqNWKR1KaFa/8=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ydDba4D2aHUCWeeyHu7G2R1V9YXLNyDX2izRumB3QRE=
+			0+2tSQGV7iXQTYETa7n/NAMDVZAjy+xw4vk4PzhBsOA=
 			</data>
 		</dict>
 	</dict>
