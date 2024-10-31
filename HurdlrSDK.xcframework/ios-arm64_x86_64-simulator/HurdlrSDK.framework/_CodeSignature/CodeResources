@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YIRc2JixSwvxu09B91hfcOwq7SU=
+		nSoGCXjl6pjXtOvJnxH66BaYGHs=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		EA132ugcjkRciQFWsF7NBiky6ok=
+		Wm9WYI12NdfljG4E9rXloFnEj/k=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p+gpKE9lL4FVuhInRz1boUkhYL0=
+		7CC3yc9CbirddMx5xRZOYVN2y4I=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EA132ugcjkRciQFWsF7NBiky6ok=
+		Wm9WYI12NdfljG4E9rXloFnEj/k=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eNrAq+AJAkfyMjBl5PEG1IsbJHU=
+		13mgH6WT1e+j7SvEqBAbrg5SOWI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eh2s4oXD0P3Cwj61qvPnpinc+IFJb5iqNWKR1KaFa/8=
+			6gBYZH4rI+hjiYo4UVvTP3McmAiA1ip/piNpqGlbsqw=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -94,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KM42+UqmYTZ4haVyw2IeER084ZRHaFZ9MFqYObcGEdc=
+			xfd7O3hF1DGifrrX1f9vJxiJAmcWL4F8hD6j2Gy22b4=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eh2s4oXD0P3Cwj61qvPnpinc+IFJb5iqNWKR1KaFa/8=
+			6gBYZH4rI+hjiYo4UVvTP3McmAiA1ip/piNpqGlbsqw=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0+2tSQGV7iXQTYETa7n/NAMDVZAjy+xw4vk4PzhBsOA=
+			xjerDJi7iUvM+QirMZWCHzH7FVyhy5CBGxpi+W4cJX0=
 			</data>
 		</dict>
 	</dict>
