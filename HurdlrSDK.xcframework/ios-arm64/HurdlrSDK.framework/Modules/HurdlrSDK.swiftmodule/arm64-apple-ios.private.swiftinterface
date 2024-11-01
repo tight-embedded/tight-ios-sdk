@@ -47,9 +47,16 @@ public enum PreciseLocationAccess : Swift.Codable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
+public protocol HurdlrDelegate : Swift.Decodable, Swift.Encodable {
+  func didStartDrive(currentDrive: HurdlrSDK.CurrentDrive)
+  func didStopDrive(currentDrive: HurdlrSDK.CurrentDrive?)
+  func didResumeDrive(currentDrive: HurdlrSDK.CurrentDrive)
+  func didMileagePermissionsChange(permissions: HurdlrSDK.Permissions)
+}
 public struct Coordinate2D : Swift.Codable {
   public let longitude: Swift.Double
   public let latitude: Swift.Double
+  public let timestamp: Foundation.Date
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -74,7 +81,7 @@ public enum MotionActivityAccess : Swift.Codable {
   public func getRoute() -> [HurdlrSDK.Coordinate2D]
   public func getStartTime() -> Foundation.Date?
   public func getEndTime() -> Foundation.Date?
-  public func getGuid() -> Swift.String
+  public func getGuid() -> Swift.UInt64?
   public func getStartAddress() -> Swift.String?
   public func getEndAddress() -> Swift.String?
   public func getStartReason() -> HurdlrSDK.DriveReason
@@ -100,11 +107,13 @@ public enum MileageDetectionState : Swift.Int, Swift.Codable {
   #if compiler(>=5.3) && $AsyncAwait
   public func initialize(accessToken: Swift.String) async throws -> Swift.Bool
   #endif
+  public func hasDelegate() -> Swift.Bool
+  public func setHurdlrDelegate(delegate: (any HurdlrSDK.HurdlrDelegate)?)
   public func isSetup() -> Swift.Bool
   public func getMileageDetectionMode() -> HurdlrSDK.MileageDetectionMode
   public func setMileageDetectionMode(mileageDetectionMode: HurdlrSDK.MileageDetectionMode) throws
   public func getCurrentDrive() -> HurdlrSDK.CurrentDrive?
-  public func logout()
+  public func teardown()
   public func startSemiAutoDrive() throws
   public func stopDrive() throws
   public func getMileagePermissions() -> HurdlrSDK.Permissions
