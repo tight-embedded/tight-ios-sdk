@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nSoGCXjl6pjXtOvJnxH66BaYGHs=
+		YIRc2JixSwvxu09B91hfcOwq7SU=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FH8zqpsEvKiGgWLJF+QMGE6R4BU=
+		7cIdKOBa6JFUF60IZ+kSjkmjnG8=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WeN4n4+1vQpFJWUfGZHOz2kgsws=
+		EOOwBSVII0xN4ZjJhZfxxIGeQ54=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FH8zqpsEvKiGgWLJF+QMGE6R4BU=
+		7cIdKOBa6JFUF60IZ+kSjkmjnG8=
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gFzS5VoS6AaIfdK1tRDw89FMiIY=
+		3Qc5B1XY2VH0suG7k+/Rjlokm74=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yRC9yZZc6xeh2aPTwgu5wqTrem0IpxSoxY73hluWhfE=
+			nkBIZnhiq+E+YBLp+2X8qgQyEAClbBiHX8t7YeEThuU=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -94,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y03cSgoaAKHIfpJKhH+XC8XQETvTUWLUZC0XC4HrzzI=
+			8Y3Spmjf4BXDE6qR7kbMETOdCT5Qi3d4pCuBFM+8Ibw=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yRC9yZZc6xeh2aPTwgu5wqTrem0IpxSoxY73hluWhfE=
+			nkBIZnhiq+E+YBLp+2X8qgQyEAClbBiHX8t7YeEThuU=
 			</data>
 		</dict>
 		<key>Modules/HurdlrSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jv22Yo1Qy5pvcHiNhMoe3XlQRnNPcTI8uK8DOtN6q8g=
+			x8LXFsAVxcJbXMLVWlpkJncSvUMJJVv7lo5y+5R9ljY=
 			</data>
 		</dict>
 	</dict>
