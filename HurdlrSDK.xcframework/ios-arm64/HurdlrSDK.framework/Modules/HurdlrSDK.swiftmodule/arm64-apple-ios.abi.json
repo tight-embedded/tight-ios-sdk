@@ -3979,34 +3979,34 @@
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 943,
-      "length": 6,
-      "value": "900.00"
+      "length": 8,
+      "value": "28800.00"
     },
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1019,
+      "offset": 1031,
       "length": 5,
       "value": "600.0"
     },
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1084,
+      "offset": 1096,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1158,
+      "offset": 1170,
       "length": 5,
       "value": "210.0"
     },
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1207,
+      "offset": 1219,
       "length": 5,
       "value": "160.0"
     },
@@ -4181,28 +4181,28 @@
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 20217,
+      "offset": 21146,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 20782,
+      "offset": 21711,
       "length": 5,
       "value": "\"log\""
     },
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "StringLiteral",
-      "offset": 20819,
+      "offset": 21748,
       "length": 8,
       "value": "\"detail\""
     },
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/classes\/Manager.swift",
       "kind": "Array",
-      "offset": 21000,
+      "offset": 21929,
       "length": 2,
       "value": "[]"
     },
