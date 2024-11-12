@@ -102,7 +102,7 @@ public enum MileageDetectionState : Swift.Int, Swift.Codable {
   }
 }
 @_hasMissingDesignatedInitializers public class Manager {
-  public func requestInitialMileagePermissions()
+  public func requestInitialMileagePermissions(viewController: UIKit.UIViewController)
   public func requestMileagePermissions(viewController: UIKit.UIViewController)
   #if compiler(>=5.3) && $AsyncAwait
   public func initialize(accessToken: Swift.String) async throws -> Swift.Bool
