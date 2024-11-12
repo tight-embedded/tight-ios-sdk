@@ -505,6 +505,43 @@
           },
           {
             "kind": "Var",
+            "name": "RESTRICTED",
+            "printedName": "RESTRICTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HurdlrSDK.LocationAccess.Type) -> HurdlrSDK.LocationAccess",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationAccess",
+                    "printedName": "HurdlrSDK.LocationAccess",
+                    "usr": "s:9HurdlrSDK14LocationAccessO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HurdlrSDK.LocationAccess.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocationAccess",
+                        "printedName": "HurdlrSDK.LocationAccess",
+                        "usr": "s:9HurdlrSDK14LocationAccessO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9HurdlrSDK14LocationAccessO10RESTRICTEDyA2CmF",
+            "mangledName": "$s9HurdlrSDK14LocationAccessO10RESTRICTEDyA2CmF",
+            "moduleName": "HurdlrSDK"
+          },
+          {
+            "kind": "Var",
             "name": "UNKNOWN",
             "printedName": "UNKNOWN",
             "children": [
@@ -1520,6 +1557,43 @@
             "declKind": "EnumElement",
             "usr": "s:9HurdlrSDK20MotionActivityAccessO7ENABLEDyA2CmF",
             "mangledName": "$s9HurdlrSDK20MotionActivityAccessO7ENABLEDyA2CmF",
+            "moduleName": "HurdlrSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "RESTRICTED",
+            "printedName": "RESTRICTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HurdlrSDK.MotionActivityAccess.Type) -> HurdlrSDK.MotionActivityAccess",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MotionActivityAccess",
+                    "printedName": "HurdlrSDK.MotionActivityAccess",
+                    "usr": "s:9HurdlrSDK20MotionActivityAccessO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HurdlrSDK.MotionActivityAccess.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MotionActivityAccess",
+                        "printedName": "HurdlrSDK.MotionActivityAccess",
+                        "usr": "s:9HurdlrSDK20MotionActivityAccessO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9HurdlrSDK20MotionActivityAccessO10RESTRICTEDyA2CmF",
+            "mangledName": "$s9HurdlrSDK20MotionActivityAccessO10RESTRICTEDyA2CmF",
             "moduleName": "HurdlrSDK"
           },
           {

@@ -26,6 +26,7 @@ public enum LocationAccess : Swift.Codable {
   case DISABLED
   case IN_APP_ONLY
   case ALWAYS
+  case RESTRICTED
   case UNKNOWN
   public static func == (a: HurdlrSDK.LocationAccess, b: HurdlrSDK.LocationAccess) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -63,6 +64,7 @@ public struct Coordinate2D : Swift.Codable {
 public enum MotionActivityAccess : Swift.Codable {
   case DISABLED
   case ENABLED
+  case RESTRICTED
   case UNKNOWN
   public static func == (a: HurdlrSDK.MotionActivityAccess, b: HurdlrSDK.MotionActivityAccess) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
