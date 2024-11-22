@@ -4300,15 +4300,15 @@
       "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 136,
-      "length": 29,
-      "value": "\"https:\/\/dev.hurdlr.com\/rest\""
+      "length": 34,
+      "value": "\"https:\/\/prod-app.hurdlr.com\/rest\""
     },
     {
       "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 194,
-      "length": 32,
-      "value": "\"https:\/\/dev-webhook.hurdlr.com\""
+      "offset": 199,
+      "length": 28,
+      "value": "\"https:\/\/webhook.hurdlr.com\""
     },
     {
       "filePath": "\/Users\/Work\/Hurdlr\/TraxIosPlayground\/TraxIosSDK\/HurdlrSDK\/enums\/MileageDetectionMode.swift",
