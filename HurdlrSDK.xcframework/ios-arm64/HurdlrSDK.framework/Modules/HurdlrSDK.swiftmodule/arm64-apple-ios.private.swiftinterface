@@ -79,18 +79,18 @@ public enum MotionActivityAccess : Swift.Codable {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CurrentDrive : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
   public func getDistance(inKilometers: Swift.Bool? = nil) -> Swift.Double
   public func getRoute() -> [HurdlrSDK.Coordinate2D]
   public func getStartTime() -> Foundation.Date?
   public func getEndTime() -> Foundation.Date?
-  public func getGuid() -> Swift.UInt64?
+  public func getSdkTimestamp() -> Swift.UInt64?
   public func getStartAddress() -> Swift.String?
   public func getEndAddress() -> Swift.String?
   public func getStartReason() -> HurdlrSDK.DriveReason
   public func getCompleteReason() -> HurdlrSDK.DriveReason
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum MileageDetectionState : Swift.Int, Swift.Codable {
   case IDLE
@@ -104,6 +104,7 @@ public enum MileageDetectionState : Swift.Int, Swift.Codable {
   }
 }
 @_hasMissingDesignatedInitializers public class Manager {
+  public func getCurrentDrive() -> HurdlrSDK.CurrentDrive?
   public func requestInitialMileagePermissions(viewController: UIKit.UIViewController)
   public func requestMileagePermissions(viewController: UIKit.UIViewController)
   #if compiler(>=5.3) && $AsyncAwait
@@ -112,18 +113,14 @@ public enum MileageDetectionState : Swift.Int, Swift.Codable {
   public func hasDelegate() -> Swift.Bool
   public func setHurdlrDelegate(delegate: (any HurdlrSDK.HurdlrDelegate)?)
   public func isSetup() -> Swift.Bool
-  public func getMileageDetectionMode() -> HurdlrSDK.MileageDetectionMode
-  public func setMileageDetectionMode(mileageDetectionMode: HurdlrSDK.MileageDetectionMode) throws
-  public func getCurrentDrive() -> HurdlrSDK.CurrentDrive?
   public func teardown()
   public func startSemiAutoDrive() throws
   public func stopDrive() throws
   public func getMileagePermissions() -> HurdlrSDK.Permissions
   public func openAppSettings(completionHandler: ((Swift.Bool) -> Swift.Void)?)
   public func uploadDebugLogs()
-  public func getLogs() -> [Swift.String]
-  public func getMileageDetectionState() -> HurdlrSDK.MileageDetectionState
-  public func setBugsnagNotifyCallback(bugsnagNotifyCallback: @escaping (Foundation.NSError, Swift.String) -> Swift.Void)
+  public func getMileageDetectionMode() -> HurdlrSDK.MileageDetectionMode
+  public func setMileageDetectionMode(mileageDetectionMode: HurdlrSDK.MileageDetectionMode) throws
   @objc deinit
 }
 public enum MileageDetectionMode : Swift.Int, Swift.Codable {
