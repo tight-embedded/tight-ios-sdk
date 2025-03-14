@@ -27,7 +27,7 @@ In addition to installing the package with Swift Package Manager, you must also 
 <string>fake_client_id</string> 
 ```
 
-2. The following Apple-compliant messages, so that your app can request the necessary permissions from the user when they turn on mileage tracking
+2. The following permission declarations, so that your app can request the necessary permissions from the user when they turn on mileage tracking, while complying with Apple's guidelines:
 
 ```
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
