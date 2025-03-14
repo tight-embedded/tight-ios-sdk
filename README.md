@@ -12,12 +12,22 @@ The Tight SDK makes use of Swift Package Manager to enable a quick and easy inte
 
 1. From within XCode, navigate to: `File > Add Package Dependencies`  
 2. Enter the following package URL in the search field: `https://github.com/Hurdlr/TightIosSDK.git`  
-3. TBD: For Dependency Rule, specify the release branch you would like to use  
-4. Add the package to your target
+3. Select the `Exact Version` Dependency Rule  
+4. Specify the latest released TightSDK version  
+5. Add the package to your target
 
 ### Info.plist Configuration
 
-In addition to installing the package with Swift Package Manager, you must also add the following to your app's info.plist file so that your app can request the necessary permissions from the user when they turn on mileage tracking, while complying with Apple's guidelines:
+In addition to installing the package with Swift Package Manager, you must also add the following to your app's info.plist file: 
+
+1. The provided Tight API client id
+
+```
+<key>TightClientId</key>
+<string>fake_client_id</string> 
+```
+
+2. The following Apple-compliant messages, so that your app can request the necessary permissions from the user when they turn on mileage tracking
 
 ```
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
