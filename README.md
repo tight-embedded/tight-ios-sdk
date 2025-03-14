@@ -67,9 +67,10 @@ For automatic drive detection and mileage tracking, please select “Allow”.
 
 ### initialize(`accessToken` : `String`) async throws 
 
-Initializes the Tight SDK with an appropriate accessToken. This function may throw the following errors:
+Initializes the Tight SDK with an appropriate `accessToken`. This function may throw the following errors:
 
-- `InvalidAccessTokenError` \- if the accessToken is invalid   
+- `InvalidAccessTokenError` \- if the accessToken is invalid  
+- `InvalidClientIdError` \- if the `TightClientId` in the app’s info.plist is invalid  
 - `NetworkConnectivityError` \- if there are network connection issues
 
 Example usage:
@@ -300,6 +301,16 @@ Represents an error thrown as a result of an invalid access token
 ```
 class InvalidAccessTokenError : Error {}
 ```
+
+### InvalidClientIdError
+
+Represents an error thrown as a result of an invalid client id
+
+```
+class InvalidClientIdError: Error {}
+```
+
+### 
 
 ### NetworkConnectivityError
 
