@@ -69,8 +69,8 @@ For automatic drive detection and mileage tracking, please select “Allow”.
 
 Initializes the Tight SDK with an appropriate `accessToken`. This function may throw the following errors:
 
-- `InvalidAccessTokenError` \- if the accessToken is invalid  
 - `InvalidClientIdError` \- if the `TightClientId` in the app’s info.plist is invalid  
+- `InvalidAccessTokenError` \- if the accessToken is invalid  
 - `NetworkConnectivityError` \- if there are network connection issues
 
 Example usage:
@@ -80,7 +80,9 @@ let tightManager = TightSDK.SDK.manager
 let sampleAccessToken = "sample_access_token"
 do {
 try tightManager.initialize(accessToken: sampleAccessToken)
-catch let error as InvalidAccessTokenError {
+catch let error as InvalidClientIdError {
+	// handle InvalidClientIdError
+} catch let error as InvalidAccessTokenError {
 	// handle InvalidAccessTokenError
 } catch let error as NetworkConnectivityError {
 	// handle NetworkConnectivityError. Generally you should retry initialization in this case
@@ -294,14 +296,6 @@ class InadequateMileagePermissionsError : Error {
 }
 ```
 
-### InvalidAccessTokenError
-
-Represents an error thrown as a result of an invalid access token
-
-```
-class InvalidAccessTokenError : Error {}
-```
-
 ### InvalidClientIdError
 
 Represents an error thrown as a result of an invalid client id
@@ -310,7 +304,13 @@ Represents an error thrown as a result of an invalid client id
 class InvalidClientIdError: Error {}
 ```
 
-### 
+### InvalidAccessTokenError
+
+Represents an error thrown as a result of an invalid access token
+
+```
+class InvalidAccessTokenError : Error {}
+```
 
 ### NetworkConnectivityError
 
