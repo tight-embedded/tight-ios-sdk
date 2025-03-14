@@ -271,10 +271,6 @@ Called when a drive is resumed. This delegate function is triggered if the user 
 
 Called whenever permissions required for mileage tracking are updated by the user
 
-#### TBD: didUpdateMileage()
-
-Called whenever a mileage was successfully saved to the Tight API. This indicates that a new mileage is available to be fetched
-
 ## Exceptions
 
 ### InadequateMileagePermissionsError
