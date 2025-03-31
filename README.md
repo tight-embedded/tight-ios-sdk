@@ -1,4 +1,4 @@
-# TightIosSDK
+# TightIOSSDK
 
 ## Minimum iOS Deployment Version
 
@@ -11,7 +11,7 @@ The Tight SDK supports a minimum iOS deployment version of `iOS 17.0`. Your app 
 The Tight SDK makes use of Swift Package Manager to enable a quick and easy integration pathway for iOS applications. Follow the steps below to install the Tight SDK using Swift Package Manager:
 
 1. From within XCode, navigate to: `File > Add Package Dependencies`  
-2. Enter the following package URL in the search field: `https://github.com/Tight/TightIosSDK.git`  
+2. Enter the following package URL in the search field: `https://github.com/Tight/TightIOSSDK.git`  
 3. Select the `Exact Version` Dependency Rule  
 4. Specify the latest released TightSDK version  
 5. Add the package to your target
@@ -95,7 +95,7 @@ catch let error as InvalidClientIdError {
 
 Returns a `Bool` indicating if the Tight SDK has been properly initialized
 
-### teardown()
+### teardown() async
 
 Resets the Tight SDK to its default state prior to initialization
 
@@ -123,7 +123,7 @@ Returns a `Permissions` object indicating the permission authorization granted b
 
 Returns a `MileageDetectionMode` enum representing the current detection mode
 
-### setMileageDetectionMode(`mileageDetectionMode`: `MileageDetectionMode`) throws
+### setMileageDetectionMode(`mileageDetectionMode`: `MileageDetectionMode`) async throws
 
 Sets the mileage detection mode. Throws an `InadequateMileagePermissionsError` if the user hasn’t granted required mileage permissions  
 Example usage:
@@ -137,7 +137,7 @@ try tightManager.setMileageDetectionMode(mileageDetectionMode: MileageDetectionM
 }
 ```
 
-### startSemiAutoDrive() throws
+### startSemiAutoDrive() async throws
 
 Starts a semi-auto drive. Throws an `InadequateMileagePermissionsError` if the user hasn’t granted required mileage permissions
 
@@ -152,7 +152,7 @@ try tightManager.startSemiAutoDrive()
 }
 ```
 
-### stopDrive()
+### stopDrive() async
 
 Stops the current drive manually
 
