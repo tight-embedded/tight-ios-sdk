@@ -257,7 +257,7 @@ struct Permissions {
 
 ### TightDelegate
 
-Delegate protocol that should be implemented to receive drive and permission events 
+Delegate protocol that should be implemented to receive drive and permission events. The following will be invoked on the main thread.
 
 ```
 protocol TightDelegate : Codable {
