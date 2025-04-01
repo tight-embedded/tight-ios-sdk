@@ -31,14 +31,14 @@ In addition to installing the package with Swift Package Manager, you must also 
 
 ```
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>YOUR_APP_NAME uses Tight to collect and transmit location data, which is used solely for drive detection and mileage tracking. 
+<string>YOUR_APP_NAME uses Tight to collect and transmit location data, which is used solely for drive detection and mileage tracking.
 
-For automatic drive detection and mileage tracking, please select "Always Allow".</string>
+For automatic drive detection and mileage tracking, please select "Change to Always Allow".</string>
 
 <key>NSLocationAlwaysUsageDescription</key>
 <string>YOUR_APP_NAME uses Tight to collect and transmit location data, which is used solely for drive detection and mileage tracking.
 
-For automatic drive detection and mileage tracking, please select "Always Allow".</string>
+For automatic drive detection and mileage tracking, please select "Change to Always Allow".</string>
 
 <key>NSLocationUsageDescription</key>
 <string>YOUR_APP_NAME uses Tight to collect and transmit location data, which is used solely for drive detection and mileage tracking.
