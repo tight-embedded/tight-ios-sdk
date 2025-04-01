@@ -31,14 +31,14 @@ In addition to installing the package with Swift Package Manager, you must also 
 
 ```
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>YOUR_APP_NAME uses Tight to collect and transmit location data, which is used solely for drive detection and mileage tracking. 
+<string>YOUR_APP_NAME uses Tight to collect and transmit location data, which is used solely for drive detection and mileage tracking.
 
-For automatic drive detection and mileage tracking, please select "Always Allow".</string>
+For automatic drive detection and mileage tracking, please select "Change to Always Allow".</string>
 
 <key>NSLocationAlwaysUsageDescription</key>
 <string>YOUR_APP_NAME uses Tight to collect and transmit location data, which is used solely for drive detection and mileage tracking.
 
-For automatic drive detection and mileage tracking, please select "Always Allow".</string>
+For automatic drive detection and mileage tracking, please select "Change to Always Allow".</string>
 
 <key>NSLocationUsageDescription</key>
 <string>YOUR_APP_NAME uses Tight to collect and transmit location data, which is used solely for drive detection and mileage tracking.
@@ -265,6 +265,7 @@ protocol TightDelegate : Codable {
 	func didStopDrive(currentDrive: CurrentDrive?)
 	func didResumeDrive(currentDrive: CurrentDrive)
 	func didMileagePermissionsChange(permissions: Permissions)
+	func didMileagePermissionsErrorOccur()
 }
 ```
 
@@ -283,6 +284,10 @@ Called when a drive is resumed. This delegate function is triggered if the user 
 #### didMileagePermissionsChange(`permissions`: `Permissions`)
 
 Called whenever permissions required for mileage tracking are updated by the user
+
+#### didMileagePermissionsErrorOccur()
+
+Called whenever permissions required for mileage tracking have been revoked
 
 ## Exceptions
 
