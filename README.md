@@ -265,6 +265,7 @@ protocol TightDelegate : Codable {
 	func didStopDrive(currentDrive: CurrentDrive?)
 	func didResumeDrive(currentDrive: CurrentDrive)
 	func didMileagePermissionsChange(permissions: Permissions)
+	func didMileagePermissionsErrorOccur()
 }
 ```
 
@@ -283,6 +284,10 @@ Called when a drive is resumed. This delegate function is triggered if the user 
 #### didMileagePermissionsChange(`permissions`: `Permissions`)
 
 Called whenever permissions required for mileage tracking are updated by the user
+
+#### didMileagePermissionsErrorOccur()
+
+Called whenever permissions required for mileage tracking have been revoked
 
 ## Exceptions
 
