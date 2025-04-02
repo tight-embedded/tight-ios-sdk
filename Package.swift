@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "Hurdlr",
+    name: "Tight",
     platforms: [
         .iOS(.v17)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Hurdlr",
-            targets: ["Hurdlr"]),
+            name: "Tight",
+            targets: ["Tight"]),
     ],
     targets: [
         .binaryTarget(
-            name: "Hurdlr",
-            path: "HurdlrSDK.xcframework"
+            name: "Tight",
+            path: "Tight.xcframework"
         )
     ]
 )
