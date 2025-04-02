@@ -219,12 +219,13 @@ Used to represent information related to the current drive
 
 ```
 class CurrentDrive {
-var route: [Coordinate2D]
 var startTime: Date?
 var endTime: Date?
 var sdkTimestamp: UInt64? //Tight internal usage only
 var startAddress: String?
 var endAddress: String?
+var startCoordinate: Coordinate2D?
+var endCoordinate: Coordinate2D?
 var startReason: DriveReason
 var completeReason: DriveReason
 func getDistance(inKilometers: Bool?) -> Double
