@@ -13,7 +13,7 @@ The Tight SDK makes use of Swift Package Manager to enable a quick and easy inte
 1. From within XCode, navigate to: `File > Add Package Dependencies`  
 2. Enter the following package URL in the search field: `https://github.com/Hurdlr/tight-ios-sdk.git`  
 3. Select the `Exact Version` Dependency Rule  
-4. Specify the latest released TightSDK version  
+4. Specify the latest released Tight SDK version  
 5. Add the package to your target
 
 ### Info.plist Configuration
@@ -76,7 +76,7 @@ Initializes the Tight SDK with an appropriate `accessToken`. This function may t
 Example usage:
 
 ```
-let tightManager = TightSDK.SDK.manager
+let tightManager = Tight.SDK.manager
 let sampleAccessToken = "sample_access_token"
 do {
 try tightManager.initialize(accessToken: sampleAccessToken)
@@ -129,7 +129,7 @@ Sets the mileage detection mode. Throws an `InadequateMileagePermissionsError` i
 Example usage:
 
 ```
-let tightManager = TightSDK.SDK.manager
+let tightManager = Tight.SDK.manager
 do { 
 try tightManager.setMileageDetectionMode(mileageDetectionMode: MileageDetectionMode.AUTO)
 } catch let error as InadequateMileagePermissionsError {
@@ -144,7 +144,7 @@ Starts a semi-auto drive. Throws an `InadequateMileagePermissionsError` if the u
 Example usage:
 
 ```
-let tightManager = TightSDK.SDK.manager
+let tightManager = Tight.SDK.manager
 do { 
 try tightManager.startSemiAutoDrive()
 } catch let error as InadequateMileagePermissionsError {
