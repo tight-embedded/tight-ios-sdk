@@ -94,8 +94,9 @@ public enum MotionActivityAccess : Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class CurrentDrive : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
+  public func getStartCoordinate() -> Tight.Coordinate2D?
+  public func getEndCoordinate() -> Tight.Coordinate2D?
   public func getDistance(inKilometers: Swift.Bool? = nil) -> Swift.Double
-  public func getRoute(timestamp: Foundation.Date = Date.distantPast) -> [Tight.Coordinate2D]
   public func getStartTime() -> Foundation.Date?
   public func getEndTime() -> Foundation.Date?
   public func getSdkTimestamp() -> Swift.Int64?

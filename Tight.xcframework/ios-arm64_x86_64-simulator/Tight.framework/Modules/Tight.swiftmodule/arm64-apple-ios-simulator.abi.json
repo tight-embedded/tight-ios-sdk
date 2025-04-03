@@ -2533,6 +2533,64 @@
           },
           {
             "kind": "Function",
+            "name": "getStartCoordinate",
+            "printedName": "getStartCoordinate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Tight.Coordinate2D?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinate2D",
+                    "printedName": "Tight.Coordinate2D",
+                    "usr": "s:5Tight12Coordinate2DV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Tight12CurrentDriveC18getStartCoordinateAA12Coordinate2DVSgyF",
+            "mangledName": "$s5Tight12CurrentDriveC18getStartCoordinateAA12Coordinate2DVSgyF",
+            "moduleName": "Tight",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEndCoordinate",
+            "printedName": "getEndCoordinate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Tight.Coordinate2D?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinate2D",
+                    "printedName": "Tight.Coordinate2D",
+                    "usr": "s:5Tight12Coordinate2DV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Tight12CurrentDriveC16getEndCoordinateAA12Coordinate2DVSgyF",
+            "mangledName": "$s5Tight12CurrentDriveC16getEndCoordinateAA12Coordinate2DVSgyF",
+            "moduleName": "Tight",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getDistance",
             "printedName": "getDistance(inKilometers:)",
             "children": [
@@ -2565,42 +2623,6 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getRoute",
-            "printedName": "getRoute(timestamp:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Tight.Coordinate2D]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinate2D",
-                    "printedName": "Tight.Coordinate2D",
-                    "usr": "s:5Tight12Coordinate2DV"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "hasDefaultArg": true,
-                "usr": "s:10Foundation4DateV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5Tight12CurrentDriveC8getRoute9timestampSayAA12Coordinate2DVG10Foundation4DateV_tF",
-            "mangledName": "$s5Tight12CurrentDriveC8getRoute9timestampSayAA12Coordinate2DVG10Foundation4DateV_tF",
-            "moduleName": "Tight",
-            "declAttributes": [
-              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },

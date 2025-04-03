@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WWISpbsqvOsuLZe2zaW6cFW7da0=
+		zrrpdVi741H3vjwl71YHGMqZ5xE=
 		</data>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JAxQJyuxLIV7ik/1Vr6XDy4hO2M=
+		ShEOIECBQj+oCn2wq29dBxh31Jg=
 		</data>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JAxQJyuxLIV7ik/1Vr6XDy4hO2M=
+		ShEOIECBQj+oCn2wq29dBxh31Jg=
 		</data>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4w0T+PdnqPySSruzVYT9FyhR0Ys=
+		eb1GcxBh0wYRmtToZZiIMA4l7Ic=
 		</data>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WWISpbsqvOsuLZe2zaW6cFW7da0=
+		zrrpdVi741H3vjwl71YHGMqZ5xE=
 		</data>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SNKKbEeGSveaLRJbTXY3L7rjgXw=
+		rSTA1ccvigKi5cliVRqZ2EUshjk=
 		</data>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SNKKbEeGSveaLRJbTXY3L7rjgXw=
+		rSTA1ccvigKi5cliVRqZ2EUshjk=
 		</data>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9ty5Ec0bivNV38IVUZ0BWv/Dmqg=
+		gVlzJu48tEar0Im6mV6kM3Vn2M0=
 		</data>
 		<key>TightDB.momd/TightDB.mom</key>
 		<data>
@@ -74,14 +74,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5+Tj58Xf9TtsecpBTmneQKiC/krtNsWz3v/yER0oWTc=
+			3Fqs9ximJZZkkzzk5nzqirDdcS5wOm7r3lnuKfNDFDk=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GYlykT8ly4rDDdDSqqsFHq9ILjCY+mPv6aCQUgSDvrs=
+			d1vWDQ77QqKszCEGw1nhrVlKK1f6yVl5ppiWYEuE450=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -95,28 +95,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GYlykT8ly4rDDdDSqqsFHq9ILjCY+mPv6aCQUgSDvrs=
+			d1vWDQ77QqKszCEGw1nhrVlKK1f6yVl5ppiWYEuE450=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bndSc0udgQcYqfSr3Lny41lRgvETu95xNIHMn4z5468=
+			88ajn8G5nr+DL4xGQvsN2ZIOfuNe0nnWduf0Mus8kMU=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5+Tj58Xf9TtsecpBTmneQKiC/krtNsWz3v/yER0oWTc=
+			3Fqs9ximJZZkkzzk5nzqirDdcS5wOm7r3lnuKfNDFDk=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4In6Y+oMgkDFO8U1S8WWf+S3J3Acikl+SQAh8//yaM=
+			ip7RjyVzENuHoG5vVxAaGIkmtwcNPCrvBY7TWKejn54=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -130,14 +130,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4In6Y+oMgkDFO8U1S8WWf+S3J3Acikl+SQAh8//yaM=
+			ip7RjyVzENuHoG5vVxAaGIkmtwcNPCrvBY7TWKejn54=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			to23GHyhEqF8LvhDwlWMRp6z9YKHwD3M8xpjltgQfYU=
+			EHSluaS/znxIOc8DxpHq6xMfBV4pkcJkGK6mdkO1Tgs=
 			</data>
 		</dict>
 		<key>TightDB.momd/TightDB.mom</key>
