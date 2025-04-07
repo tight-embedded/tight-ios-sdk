@@ -1582,6 +1582,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "NetworkConnectivityError",
         "printedName": "NetworkConnectivityError",
@@ -3489,13 +3499,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Tight7ManagerC9stopDriveyyYaKF",
-            "mangledName": "$s5Tight7ManagerC9stopDriveyyYaKF",
+            "usr": "s:5Tight7ManagerC9stopDriveyyYaF",
+            "mangledName": "$s5Tight7ManagerC9stopDriveyyYaF",
             "moduleName": "Tight",
             "declAttributes": [
               "AccessControl"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -5366,13 +5375,6 @@
       "offset": 244,
       "length": 3,
       "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/Tight\/classes\/CurrentDrive.swift",
-      "kind": "FloatLiteral",
-      "offset": 318,
-      "length": 6,
-      "value": "1000.0"
     },
     {
       "filePath": "\/Users\/brennanhurst\/Dev\/TraxIos\/TraxIosPlayground\/TraxIosSDK\/Tight\/DTOs\/Bugsnag.swift",
