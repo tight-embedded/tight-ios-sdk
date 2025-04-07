@@ -1,0 +1,222 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Tight
+import Combine
+import CoreData
+import CoreLocation
+import CoreMotion
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+public struct Permissions : Swift.Codable {
+  public let locationAccess: Tight.LocationAccess
+  public let preciseLocationAccess: Tight.PreciseLocationAccess
+  public let motionActivityAccess: Tight.MotionActivityAccess
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc(BugsnagEntity) public class BugsnagEntity : CoreData.NSManagedObject {
+  public init(context: CoreData.NSManagedObjectContext, post_content: Foundation.Data, uuid: Foundation.UUID)
+  @available(*, unavailable)
+  @objc dynamic public init()
+  @available(*, unavailable)
+  @objc dynamic public init(context _: CoreData.NSManagedObjectContext)
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class InadequateMileagePermissionsError : Tight.TightError {
+  final public let permissions: Tight.Permissions
+  @objc deinit
+}
+public enum LocationAccess : Swift.Codable {
+  case DISABLED
+  case IN_APP_ONLY
+  case ALWAYS
+  case RESTRICTED
+  case UNKNOWN
+  public static func == (a: Tight.LocationAccess, b: Tight.LocationAccess) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum PreciseLocationAccess : Swift.Codable {
+  case DISABLED
+  case ENABLED
+  case UNKNOWN
+  public static func == (a: Tight.PreciseLocationAccess, b: Tight.PreciseLocationAccess) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetworkConnectivityError : Tight.TightError {
+  @objc deinit
+}
+public protocol TightDelegate : Swift.Decodable, Swift.Encodable {
+  func didStartDrive(currentDrive: Tight.CurrentDrive)
+  func didStopDrive(currentDrive: Tight.CurrentDrive?)
+  func didResumeDrive(currentDrive: Tight.CurrentDrive)
+  func didMileagePermissionsChange(permissions: Tight.Permissions)
+  func didMileagePermissionsErrorOccur()
+}
+public struct Coordinate2D : Swift.Codable {
+  public let longitude: Swift.Double
+  public let latitude: Swift.Double
+  public let timestamp: Foundation.Date
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum MotionActivityAccess : Swift.Codable {
+  case DISABLED
+  case ENABLED
+  case RESTRICTED
+  case UNKNOWN
+  public static func == (a: Tight.MotionActivityAccess, b: Tight.MotionActivityAccess) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class SDK {
+  public static let manager: Tight.Manager
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CurrentDrive : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func getStartCoordinate() -> Tight.Coordinate2D?
+  public func getEndCoordinate() -> Tight.Coordinate2D?
+  public func getDistance(inKilometers: Swift.Bool? = nil) -> Swift.Double
+  public func getStartTime() -> Foundation.Date?
+  public func getEndTime() -> Foundation.Date?
+  public func getSdkTimestamp() -> Swift.Int64?
+  public func getStartAddress() -> Swift.String?
+  public func getEndAddress() -> Swift.String?
+  public func getStartReason() -> Tight.DriveReason
+  public func getCompleteReason() -> Tight.DriveReason
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InvalidAccessTokenError : Tight.TightError {
+  @objc deinit
+}
+extension Tight.BugsnagEntity {
+  public static let entityName: Swift.String
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<Tight.BugsnagEntity>
+  @objc @NSManaged dynamic public var post_content: Foundation.Data {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var uuid: Foundation.UUID {
+    @objc get
+    @objc set
+  }
+}
+extension Tight.BugsnagEntity : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+extension Tight.Coordinate2DEntity {
+  public static let entityName: Swift.String
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<Tight.Coordinate2DEntity>
+  @objc @NSManaged dynamic public var currentDriveId: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var latitude: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var longitude: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var timestamp: Foundation.Date {
+    @objc get
+    @objc set
+  }
+}
+extension Tight.Coordinate2DEntity : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_hasMissingDesignatedInitializers public class TightError : Swift.Error {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InvalidClientIdError : Tight.TightError {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Manager {
+  public func getCurrentDrive() -> Tight.CurrentDrive?
+  public func requestInitialMileagePermissions(viewController: UIKit.UIViewController)
+  public func requestMileagePermissions(viewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func initialize(accessToken: Swift.String) async throws
+  #endif
+  public func hasDelegate() -> Swift.Bool
+  public func setTightDelegate(delegate: (any Tight.TightDelegate)?)
+  public func isSetup() -> Swift.Bool
+  #if compiler(>=5.3) && $AsyncAwait
+  public func teardown() async
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func startSemiAutoDrive() async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func stopDrive() async
+  #endif
+  public func getMileagePermissions() -> Tight.Permissions
+  public func uploadDebugLogs()
+  public func getMileageDetectionMode() -> Tight.MileageDetectionMode
+  #if compiler(>=5.3) && $AsyncAwait
+  public func setMileageDetectionMode(mileageDetectionMode: Tight.MileageDetectionMode) async throws
+  #endif
+  @objc deinit
+}
+public enum MileageDetectionMode : Swift.Int, Swift.Codable {
+  case OFF
+  case AUTO
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc(Coordinate2DEntity) public class Coordinate2DEntity : CoreData.NSManagedObject {
+  public init(context: CoreData.NSManagedObjectContext, currentDriveId: Swift.Int64, longitude: Swift.Double, latitude: Swift.Double, timestamp: Foundation.Date)
+  @available(*, unavailable)
+  @objc dynamic public init()
+  @available(*, unavailable)
+  @objc dynamic public init(context _: CoreData.NSManagedObjectContext)
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+public enum DriveReason : Swift.String, Swift.Codable {
+  case MANUAL
+  case AUTOMATIC
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Tight.LocationAccess : Swift.Equatable {}
+extension Tight.LocationAccess : Swift.Hashable {}
+extension Tight.PreciseLocationAccess : Swift.Equatable {}
+extension Tight.PreciseLocationAccess : Swift.Hashable {}
+extension Tight.MotionActivityAccess : Swift.Equatable {}
+extension Tight.MotionActivityAccess : Swift.Hashable {}
+extension Tight.MileageDetectionMode : Swift.Equatable {}
+extension Tight.MileageDetectionMode : Swift.Hashable {}
+extension Tight.MileageDetectionMode : Swift.RawRepresentable {}
+extension Tight.DriveReason : Swift.Equatable {}
+extension Tight.DriveReason : Swift.Hashable {}
+extension Tight.DriveReason : Swift.RawRepresentable {}
