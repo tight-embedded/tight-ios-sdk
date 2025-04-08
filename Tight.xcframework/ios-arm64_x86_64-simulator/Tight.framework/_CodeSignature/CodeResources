@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fXFOUZQLP2k+aJWj0Yosz7VZxWQ=
+		8DgXnJ/5mYWuN/PsxPK1vYaTBpw=
 		</data>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NsNiQBEDV+ijs+tgMv4hhxcAJVs=
+		xCxwgllmDNPqlHsAKMmgUIYvgzQ=
 		</data>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zdGMhplkyi2W8kWz8lRTUwpPWss=
+		Y53dPFQ9npHjAHz2A7PeuOq+uo8=
 		</data>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NsNiQBEDV+ijs+tgMv4hhxcAJVs=
+		xCxwgllmDNPqlHsAKMmgUIYvgzQ=
 		</data>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MpUyDYy9PdmQRz8TYTm06VPnKEw=
+		wDmEY9MIgr3wUTJQbungDiMCZ6w=
 		</data>
 		<key>TightDB.momd/TightDB.mom</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S2QxcbWkagNRfGWcOWNyQLlIt9AVFWI/3xeS0uG9p9E=
+			WwRmbpPFt8CYEIa7wQBZFl7gwsredv7v/AErDNuCBUE=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -102,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qerVtgyAuEJWM67/QWLh8udY2S4AX3vkBu8S9cvM7Io=
+			nHyBmLoWrsFzeeVcCYX7YWdOXSqb+msFElH+a04U6oY=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S2QxcbWkagNRfGWcOWNyQLlIt9AVFWI/3xeS0uG9p9E=
+			WwRmbpPFt8CYEIa7wQBZFl7gwsredv7v/AErDNuCBUE=
 			</data>
 		</dict>
 		<key>Modules/Tight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xcWWrHciyd6W6TBtLmqdEZVmdrJc2flUv3NwrQ7bXYw=
+			uXBIJ7d7MngmeMDDua5jjgLfU3jdgBlFWQkL8BbhnlA=
 			</data>
 		</dict>
 		<key>TightDB.momd/TightDB.mom</key>
