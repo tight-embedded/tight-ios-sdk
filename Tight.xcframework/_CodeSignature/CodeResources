@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/Tight.framework/Tight</key>
 		<data>
-		5CJ//4vN/0zia/dcyTolQsopZq4=
+		aQqn/vMPzN59mb1450NoqfHKJCM=
 		</data>
 		<key>ios-arm64/Tight.framework/TightDB.momd/TightDB.mom</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/Tight.framework.dSYM/Contents/Resources/DWARF/Tight</key>
 		<data>
-		Wv4GZlACZ01Z9fa61dczIE1VcWI=
+		h3p11ocww3jMI3DHIYp1WNqvCyc=
 		</data>
 		<key>ios-arm64/dSYMs/Tight.framework.dSYM/Contents/Resources/Relocations/aarch64/Tight.yml</key>
 		<data>
-		wVnpY9yCb4tu/0z+p1VFyzxwRTQ=
+		LJewUBwvkxKMDklvRJSdxWaziY8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tight.framework/Headers/SDK.h</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tight.framework/Tight</key>
 		<data>
-		7vkFtcfSqqhoudmX/uQDjT3T4dM=
+		hL+5J/Mjqgjbpc2Af1eVkrGSvHw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Tight.framework/TightDB.momd/TightDB.mom</key>
 		<data>
@@ -114,15 +114,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Tight.framework.dSYM/Contents/Resources/DWARF/Tight</key>
 		<data>
-		Yu2RJ2ODM353UD0z3ACuBeCGCRg=
+		pdQArH3eqkwR2s7/zb3p5yfVzYA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Tight.framework.dSYM/Contents/Resources/Relocations/aarch64/Tight.yml</key>
 		<data>
-		apaEVxTOVCAMePogilyONn1EAok=
+		VPn18fFi83AmdQaq9QO+1J7Xr48=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Tight.framework.dSYM/Contents/Resources/Relocations/x86_64/Tight.yml</key>
 		<data>
-		WyAQbuJqDibSCJLL4s9fhSy6PsE=
+		s3McoNaiP0h4wyePnpNV+P134So=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -197,11 +197,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5CJ//4vN/0zia/dcyTolQsopZq4=
+			aQqn/vMPzN59mb1450NoqfHKJCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			9t55cSDOaUWXSkyfv5HbXBQ1f2GS19RaN5uQo+EWS3M=
+			y03akCSecAr2nzwo2exuWu933aXJf41w5naovslH01U=
 			</data>
 		</dict>
 		<key>ios-arm64/Tight.framework/TightDB.momd/TightDB.mom</key>
@@ -241,22 +241,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wv4GZlACZ01Z9fa61dczIE1VcWI=
+			h3p11ocww3jMI3DHIYp1WNqvCyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hfCXKIDMgxJt56IhOFbZF0oQF0iZD3o3a8KIGYk/8bk=
+			BJp5AIhq+OWiN8pp6xoqjIQKVz0AE2LYXO1s1lFnHY8=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/Tight.framework.dSYM/Contents/Resources/Relocations/aarch64/Tight.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wVnpY9yCb4tu/0z+p1VFyzxwRTQ=
+			LJewUBwvkxKMDklvRJSdxWaziY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0QloIl58twkqSeHxtZuLX+N3rmAu5v1UgtO7mgzVNoM=
+			lnW6ejfs5DK31Ee33t53aUjIxIwdYhpCTmW2a61SHNo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Tight.framework/Headers/SDK.h</key>
@@ -373,11 +373,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7vkFtcfSqqhoudmX/uQDjT3T4dM=
+			hL+5J/Mjqgjbpc2Af1eVkrGSvHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			cQreuQDa6MoplCL2Do/0YoqyRiJevgJ/cRXCti7iUZo=
+			V3gujLfCPHhHoFBlA2U8PgR5fuWJf1l2z380dRpeNP0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Tight.framework/TightDB.momd/TightDB.mom</key>
@@ -428,33 +428,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yu2RJ2ODM353UD0z3ACuBeCGCRg=
+			pdQArH3eqkwR2s7/zb3p5yfVzYA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tbPqNu3DJtipVaW6ni8nauYFB50BGI2G5YPHiBZvDWw=
+			I2MV8kSQU6fgiw82cXKZuiLyGFhv8BO5YW2+vE71A3A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Tight.framework.dSYM/Contents/Resources/Relocations/aarch64/Tight.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			apaEVxTOVCAMePogilyONn1EAok=
+			VPn18fFi83AmdQaq9QO+1J7Xr48=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ye0kx13KYRBusGCbraaSnmSv8bQ/fNUSvF47wvexXYc=
+			YyCMqZrOHZ+zOEZ84KDmnOr3Lp8kYr7l1WUsynDLel0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Tight.framework.dSYM/Contents/Resources/Relocations/x86_64/Tight.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WyAQbuJqDibSCJLL4s9fhSy6PsE=
+			s3McoNaiP0h4wyePnpNV+P134So=
 			</data>
 			<key>hash2</key>
 			<data>
-			sIuRGwmDbytbY2Uu5+QpVoQ/k1GprQPz5GyGeo1ofHM=
+			+1i89gU/MGKDI8lS68saQ8ROfSYLr3loLP04BBwAJhI=
 			</data>
 		</dict>
 	</dict>
