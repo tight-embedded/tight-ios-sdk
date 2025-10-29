@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   DESC
 
   spec.homepage      = "https://github.com/Hurdlr/tight-ios-sdk"
-  spec.license       = { :type => "MIT", :file => "LICENSE" }
+  spec.license       = { :type => "Proprietary" }
   spec.author        = { "Tight" => "api@tight.com" }
 
   spec.platform      = :ios, "17.0"
