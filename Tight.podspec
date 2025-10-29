@@ -4,18 +4,17 @@ Pod::Spec.new do |spec|
   spec.summary       = "Tight iOS SDK for automatic mileage detection and tracking"
   spec.description   = <<-DESC
     The Tight SDK provides automatic mileage detection and tracking capabilities for iOS applications.
-    It includes location tracking, motion activity detection, and drive management features.
   DESC
 
   spec.homepage      = "https://github.com/Hurdlr/tight-ios-sdk"
-  spec.license       = { :type => "MIT", :file => "LICENSE" }  # Update with your actual license
-  spec.author        = { "Hurdlr" => "support@hurdlr.com" }  # Update with actual contact
+  spec.license       = { :type => "MIT", :file => "LICENSE" }
+  spec.author        = { "Tight" => "api@tight.com" }
 
   spec.platform      = :ios, "17.0"
   spec.ios.deployment_target = "17.0"
 
   spec.source        = {
-    :git => "https://github.com/Hurdlr/tight-ios-sdk.git",
+    :git => "https://github.com/Hurdlr/tight-ios-sdk",
     :tag => "#{spec.version}"
   }
 
