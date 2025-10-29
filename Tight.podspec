@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     The Tight SDK provides automatic mileage detection and tracking capabilities for iOS applications.
   DESC
 
-  spec.homepage      = "https://github.com/Hurdlr/tight-ios-sdk"
+  spec.homepage      = "https://github.com/Hurdlr/tight-ios-sdk.git"
   spec.license       = { :type => "Proprietary" }
   spec.author        = { "Tight" => "api@tight.com" }
 
