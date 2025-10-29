@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = "Tight"
-  spec.version       = "1.0.0"
+  spec.version       = "6.0.0"
   spec.summary       = "Tight iOS SDK for automatic mileage detection and tracking"
   spec.description   = <<-DESC
     The Tight SDK provides automatic mileage detection and tracking capabilities for iOS applications.
