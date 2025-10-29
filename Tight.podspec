@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "17.0"
 
   spec.source        = {
-    :git => "https://github.com/Hurdlr/tight-ios-sdk",
+    :git => "https://github.com/Hurdlr/tight-ios-sdk.git",
     :tag => "#{spec.version}"
   }
 
